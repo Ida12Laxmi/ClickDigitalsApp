@@ -9,6 +9,7 @@ public class Schedule {
     @Column(name = "sid")
 
     public Long sid;
+    @Column(name = "cn")
     public String companyName;
     public String industry;
     public String email;

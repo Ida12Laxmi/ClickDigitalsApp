@@ -12,5 +12,6 @@ public class ScheduleService {
     @Transactional
     public int registerScheduleService(String cn, String industry, String email, String proposal){
         return scheduleRepository.registerSchedule(cn, industry, email, proposal);
+
     }
 }
